@@ -127,7 +127,7 @@ void startupWrapper(std::string appName) {
         continue;
       }
 
-      std::string arg = (i==0) ? "copy1" : "copy2";
+      std::string arg = (i==0) ? " copy1" : " copy2";
       
       isRunning[i] = true;
 
